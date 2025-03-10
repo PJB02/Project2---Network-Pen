@@ -26,9 +26,10 @@ def columnar_decrypt(ciphertext, num_columns):
             if index < len(ciphertext):
                 matrix[row] += ciphertext[index]
                 index += 1
-    
+
     plaintext = ''.join(matrix)
     return plaintext
+
 
 def decrypt(ciphertext, caesar_offset, num_columns):
     columnar_decrypted = columnar_decrypt(ciphertext, num_columns)
