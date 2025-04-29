@@ -1,3 +1,12 @@
+
+# Student Name: Jacob Braddock
+# Program Name: HTML parser
+# Creation Date: March 10th, 2025
+# Last Modified Date: March 10th, 2025
+# CSCI Course:  452
+# Grade Received:  Pending
+# Design Comments:This is part of a 3 task assignment in the use of encryption and decryption methods as intruscted among the 3 tasks.
+
 import string
 
 def caesar_encrypt(plaintext, offset):
